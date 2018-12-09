@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "BDD TEST SUITE 1",
+    "children" : [ {
+      "name" : "Test1",
+      "uid" : "796e9e868323c568",
+      "parentUid" : "e7c5ea16d871b8367bbfb5267b392107",
+      "status" : "broken",
+      "time" : {
+        "start" : 1544354552051,
+        "stop" : 1544354553175,
+        "duration" : 1124
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e7c5ea16d871b8367bbfb5267b392107"
+  } ]
+}

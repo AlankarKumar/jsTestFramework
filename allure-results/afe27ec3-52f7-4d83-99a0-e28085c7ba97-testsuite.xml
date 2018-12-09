@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1544278509129' stop='1544278510485'>
+    <name>BDD TEST SUITE 1</name>
+    <title>BDD TEST SUITE 1</title>
+    <test-cases>
+        <test-case start='1544278509134' status='broken' stop='1544278510483'>
+            <name>Test1</name>
+            <title>Test1</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Exception in keyword:type,dataPath:.headers['Accept-Encoding'],schemaPath:#/properties/headers/properties/Accept-Encoding/type,params:[object Object],message:should be number,
+                </message>
+                <stack-trace>Error: Exception in keyword:type,dataPath:.headers['Accept-Encoding'],schemaPath:#/properties/headers/properties/Accept-Encoding/type,params:[object Object],message:should be number,
+                
+                    at C:\Users\alankar\Desktop\APIFramework\test\test_specs\api_spec_test.js:19:26
+                    at Test._assertFunction (node_modules\supertest\lib\test.js:283:11)
+                    at Test.assert (node_modules\supertest\lib\test.js:173:18)
+                    at localAssert (node_modules\supertest\lib\test.js:131:12)
+                    at C:\Users\alankar\Desktop\APIFramework\node_modules\supertest\lib\test.js:128:5
+                    at Test.Request.callback (node_modules\superagent\lib\node\index.js:716:12)
+                    at parser (node_modules\superagent\lib\node\index.js:916:18)
+                    at IncomingMessage.res.on (node_modules\superagent\lib\node\parsers\json.js:19:7)
+                    at endReadableNT (_stream_readable.js:1085:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,22 @@
+{
+  "4cc44defbec498f7737d00c64db6338b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "796e9e868323c568",
+      "status" : "broken",
+      "statusDetails" : "Exception in keyword:type,dataPath:.headers['Accept-Encoding'],schemaPath:#/properties/headers/properties/Accept-Encoding/type,params:[object Object],message:should be number,\n                ",
+      "time" : {
+        "start" : 1544354552051,
+        "stop" : 1544354553175,
+        "duration" : 1124
+      }
+    } ]
+  }
+}
